@@ -1,3 +1,4 @@
+#Review class which inherits from Activerecord
 class Review < ActiveRecord::Base
     belongs_to :user
     belongs_to :product
