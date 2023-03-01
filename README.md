@@ -3,7 +3,7 @@
 
 ## Domain Model
 We have three models: User, Review, and Product.
-For our purposes, a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.
+A Product has many Users, a User has many Products, and a Review belongs to a User and to a Product.
 Product - User is a many-to-many relationship.
 <br>
 The application allows creating, updating, and deleting(CRUD) objects of the three models, and performing various object relationship methods and aggregate methods.
