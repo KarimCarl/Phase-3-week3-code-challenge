@@ -17,14 +17,14 @@ puts "🌱 Seeding data..."
       )
     end
   end
-  # create users
+  # creates users as it loops
   50.times do
     user = User.create(
       name: Faker::Name.name
     )
   end
 
-  # User#reviews
+  # User reviews
   user1 = User.first
   review2 = Review.second
   user1.reviews << review2
