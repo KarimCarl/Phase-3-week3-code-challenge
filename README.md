@@ -39,8 +39,6 @@ Use the following steps to run the app.
 - Run the application on the terminal
 -  Run the application on the terminal
       ruby `file_name.rb`
-- For our app, we run the following command;
-      ruby run/console.rb
 
 # Authors
 This project was contributed to by Charles Ndung'u
