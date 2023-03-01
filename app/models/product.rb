@@ -13,3 +13,10 @@ class Product < ActiveRecord::Base
         self.reviews.average(:star_rating).to_f
     end 
 end
+
+#To run object association methos,
+#You first have to access the product or user or review
+#by creating a variable e.g 
+# products=products.first => variable products stores the first product
+
+#You can then call methods like products.reviews to view the products' reviews
